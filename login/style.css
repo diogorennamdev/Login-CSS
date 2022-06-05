@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+body {
+  background: var(--background);
+}
+.container {
+  background: var(--form-background);
+  width: 572px;
+  height: 512px;
+  margin-left: 74px;
+  margin-top: 194px;
+  border-radius: 4px;
+  position: absolute;
+}
+input{
+  width: 300px;
+  height: 44px;
+  margin-left: 32px;
+  margin-top:-23px;
+  border: 3px solid #868686;
+  border-radius: 4px;
+  background-color:transparent;
+}
+
+input:hover {
+  border: 1px solid var(--primary-color);
+  
+}
+section #header {
+  width: 334px;
+  height: 64px;
+  margin-top: 55px;
+  margin-left: 119px;
+  margin-right: 794px;
+}
+h2 {
+  width: 176px;
+  height: 36px;
+  margin-top: -8%;
+  margin-left: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  color: var(--text-title);
+  font-size: 24px;
+}
+h3 {
+  color: var(--text-base);
+  width: 54px;
+  height: 24px;
+  font-size: 16px;
+  margin-top:5%;
+  margin-block: 15px;
+}
+h4 {
+  width: 104px;
+  height: 16px;
+  margin-top: -8%;
+  position: absolute;
+  margin-left: 47px;
+  color: var(--text-base);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+p {
+  width: 334px;
+  height: 23px;
+  margin-top: -20px;
+  font-size: 16px;
+  color: var(--text-base);
+}
+.img img {
+  width: 720px;
+  height: 900px;
+  margin-left: 720px;
+  top: 0%;
+  position: absolute;
+}
+#email {
+  width: 335px;
+  height: 44px;
+  position: absolute;
+  margin-left: 119px;
+}
+.mail img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: -2px;
+  margin-top: -36px;
+}
+#password {
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  margin-left: 119px;
+  margin-top: 130px;
+}
+.senha h3 {
+  margin-top: -65px;
+  margin-left: -3px;
+}
+#password .lock {
+  position: absolute;
+  width: 30px;
+  margin-left: -3px;
+  margin-top: -3%;
+}
+
+#password h4 {
+  width: 104px;
+  height: 16px;
+  margin-top: -4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
